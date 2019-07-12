@@ -5,6 +5,7 @@
     "@babel/runtime": "^7.0.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^24.0.0",
+    "babel-plugin-dynamic-import-node": "^2.3.0",
     "chokidar": "^1.7.0",
     "cross-env": "^5.1.4",
     "eslint": "^5.16.0",
