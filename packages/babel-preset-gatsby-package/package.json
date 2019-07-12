@@ -12,8 +12,5 @@
     "@babel/preset-react": "^7.0.0"
   },
   "license": "MIT",
-  "main": "index.js",
-  "devDependencies": {
-    "babel-plugin-dynamic-import-node": "^2.3.0"
-  }
+  "main": "index.js"
 }

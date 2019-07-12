@@ -42,8 +42,7 @@ function preset(context, options = {}) {
     plugins: [
       r(`@babel/plugin-proposal-class-properties`),
       r(`@babel/plugin-proposal-optional-chaining`),
-      r(`@babel/plugin-transform-runtime`),
-      r(`@babel/plugin-syntax-dynamic-import`)
+      r(`@babel/plugin-transform-runtime`)
     ],
   }
 }

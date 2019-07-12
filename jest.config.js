@@ -33,9 +33,6 @@ module.exports = {
     `/node_modules/`,
     `__tests__/fixtures`,
   ],
-  // gatsby-image includes a dynamic import in the IE polyfill
-  // that Node doesn't understand and needs `babel-plugin-dynamic-import-node`
-  // transformIgnorePatterns: [`/node_modules/`],
   transform: { "^.+\\.js$": `<rootDir>/jest-transformer.js` },
   moduleNameMapper: {
     "^highlight.js$": `<rootDir>/node_modules/highlight.js/lib/index.js`,
